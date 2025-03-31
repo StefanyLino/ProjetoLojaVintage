@@ -16,7 +16,7 @@ body{
 }
 
 .light-bg-color{
-    background-color: #fcf5eb;
+    background-color: #FCF5EB;
 }
 
 .dark-bg-color{
@@ -41,7 +41,7 @@ body{
     justify-content: flex-end;
 }
 
-#navbar.navbar-nav li{
+#navbar .navbar-nav li{
     margin-left: 1em;
 }
 
@@ -77,6 +77,16 @@ body{
     font-weight: 700;
     width: 100%;
     text-align: center;
+}
+
+@media(min-width: 768px){
+    .navbar-brand {
+        text-align: left;
+    }
+}
+
+#navbar-items{
+    justify-content: space-between;
 }
 
 @media(min-width: 768px){
@@ -278,7 +288,7 @@ body{
     border-color: #C09578;
 }
 
-/* codigo 6 */
+
 /* bottom banner */
 #bottom-banner {
     background-color: #101010;
@@ -309,7 +319,7 @@ body{
     }
 }
 
-/* codigo 7 */
+
 /* new oproducts */
 
 #new-products{
@@ -341,9 +351,9 @@ body{
     margin: 2rem auto;
 }
 
-/* codigo 8 */
+
 /* galeria */
-#gallery .imagem-container{
+#gallery .image-container {
     background-size: cover;
     background-position: center;
     height: 225px;
@@ -356,25 +366,24 @@ body{
 }
 
 #insta1 {
-    background-image: url(img/insta1.jpg);
+    background-image: url('img/insta1.jpg');
 }
 #insta2 {
-    background-image: url(img/insta2.jpg);
+    background-image: url('img/insta2.jpg');
 }
 #insta3 {
-    background-image: url(img/insta3.jpg);
+    background-image: url('img/insta3.jpg');
 }
 #insta4 {
-    background-image: url(img/insta4.jpg);
+    background-image: url('img/insta4.jpg');
 }
 #insta5 {
-    background-image: url(img/insta5.jpg);
+    background-image: url('img/insta5.jpg');
 }
 #insta6 {
-    background-image: url(img/insta6.jpg);
+    background-image: url('img/insta6.jpg');
 }
 
-/* codigo 9 */
 /* footer */
 #footer-links-container {
     border-bottom: 1px solid #626262;
@@ -405,7 +414,7 @@ body{
 }
 
 @media(min-width:795px) {
-    #footer-çinls-container li{
+    #footer-links-container li{
         text-align: left;
     }
 }
