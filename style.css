@@ -4,6 +4,14 @@
     /* Fontes */
     --title: "Notable", sans-serif;
     --body: "Montserrat", sans-serif;
+
+    /* Cores */
+    --primary: #F2CEA2;
+    --secondary: #D9AB82;
+    --tertiary: #A67449;
+    --quaternary: #734C29;
+    --quinary: #402915;
+
 }
 
 *{
@@ -267,6 +275,8 @@ body{
     }
 }
 
+
+
 .card {
     text-align: center;
     border-radius: 0;
@@ -374,22 +384,22 @@ body{
 }
 
 #insta1 {
-    background-image: url(img/insta1.jpg);
+    background-image: url(img/insta1.png);
 }
 #insta2 {
-    background-image: url(img/insta2.jpg);
+    background-image: url(img/insta2.png);
 }
 #insta3 {
-    background-image: url(img/insta3.jpg);
+    background-image: url(img/insta3.png);
 }
 #insta4 {
-    background-image: url(img/insta4.jpg);
+    background-image: url(img/insta4.png);
 }
 #insta5 {
-    background-image: url(img/insta5.jpg);
+    background-image: url(img/insta5.png);
 }
 #insta6 {
-    background-image: url(img/insta6.jpg);
+    background-image: url(img/insta6.png);
 }
 
 /* footer */
