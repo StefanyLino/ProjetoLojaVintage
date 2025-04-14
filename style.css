@@ -11,6 +11,7 @@
     --tertiary: #A67449;
     --quaternary: #734C29;
     --quinary: #402915;
+    --wine: #52130C;
 
 }
 
@@ -28,7 +29,7 @@ body{
 }
 
 .secondary-bg-color{
-    background-color: #C09578;
+    background-color: var(--wine);
 }
 
 .light-bg-color{
@@ -89,10 +90,8 @@ body{
     left: 20px;
 }
 
-.navbar-brand{
-    font-weight: 700;
+.navbar-brand img{
     width: 100%;
-    text-align: center;
 }
 
 @media(min-width: 768px){
@@ -168,6 +167,10 @@ body{
     padding: 0;
 }
 
+.back1{
+    background-color: var(--wine);
+}
+
 .carousel-caption{
     bottom: 5em;
     padding: 1em;
@@ -197,7 +200,7 @@ body{
 
 /* MINI BANNERS */
 #mini-banners{
-    margin-top: -3em;
+    margin-top: 3em;
     z-index: 10;
 }
 
@@ -498,9 +501,38 @@ body{
     color: #c09578;
 }
 
-
 /* copy */
 #copy-container {
     text-align: center;
     padding: 30px;
 }
+
+.top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1000;
+  }
+  
+  .top a {
+    align-items: center;
+    justify-content: center;
+    width: 5rem; /* Tamanho do botão */
+    height: 5rem; /* Tamanho do botão */
+    background-color: var(--second-bg-color); /* Cor de fundo */
+    border-radius: 50%; /* Formato circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+    transition: all 0.3s ease;
+  }
+  
+  .top a:hover {
+    background-color: var(--second-text-color); /* Cor de fundo ao passar o mouse */
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+  }
+  
+  .top i {
+    font-size: 3rem; /* Tamanho do ícone */
+    color: rgba(255, 255, 255, 0.486);
+    font-weight: bold; /* Deixa o ícone mais espesso */
+    text-decoration: none;
+  }
